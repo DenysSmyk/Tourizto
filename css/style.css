@@ -1,0 +1,548 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Lato, sans-serif;
+    background-color: #f5f5f5;
+}
+.clearfix:after {
+    content: '';
+    display: table;
+    width: 100%;
+    clear: both;
+}
+.container{
+    width: 1150px;
+    margin: 0 auto;
+}
+
+
+/*Header*/
+header{
+    background: url(../img/logo-bg-wave.jpg) no-repeat center top / cover;
+/*    height: 900px;*/
+    height: 120vh;
+    
+}
+.header-logo{
+    padding-top: 25px;
+}
+.header-menu{
+    width: 700px;
+    float: right;
+    margin-top: -50px;
+    margin-right: -100px;
+    
+}
+.header-menu ul a{
+    float: left;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+    text-transform: uppercase;
+    padding-left: 20px;
+    list-style: none; 
+}
+.header-menu ul a li:hover{
+    border-bottom: 3px solid #572f59;
+    padding-bottom: 3px;
+}
+.header-menu-home{
+    border-bottom: 3px solid #572f59;
+    padding-bottom: 3px;
+}
+
+.header-titles{
+    text-align: center;
+    margin-top: 220px;
+}
+.header-titles h1{
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-size: 60px;
+}
+.header-titles p{
+    margin: 0;
+    padding: 0;
+    font-size: 22px;
+    color: white;
+    margin-top: 10px;
+}
+
+.header-botton{
+    text-align: center;
+    margin-top: 80px;
+}
+.search-input{
+    float: left;
+    border: none;
+    border-color: #e3e2e7;
+    color: #aaaaaa;
+    box-shadow: none;
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+    height: 45px;
+    width: 670px;
+    margin: 0;
+    padding:20px;
+    margin-left: 150px;
+    
+    
+}
+.search-button{
+    text-transform: uppercase;
+    color: white;
+    background-color: #572f59;
+    border: none;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+    font-weight: 900;
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+    height: 45px;
+    width: 170px;
+    margin-right: 150px;
+}
+.search-button:hover{
+    color: #ffffff;
+    background-color: #cd5823;
+    transition: .5s all;
+}
+    
+/*Best Offers*/
+.best-offers{
+    text-align: center;
+    margin-top: 80px;
+}
+.best-offers h1{
+    margin: 0; 
+    padding: 0; 
+    font-size: 36px; 
+    color: black;
+}
+.best-offers p{
+    margin: 0; 
+    padding: 0;
+    margin-top: 5px;
+    text-align: 16px ; 
+    color: #aaaaaa;
+}
+
+.best-offers-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-gap: 20px;
+}
+.best-offers-grid div{
+    background-color: white;
+    margin: 50px 0;
+    border-radius: 10px;
+}
+.best-offers-grid div:hover{
+        box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.best-offers-grid img{
+    width: 280px;
+    height: 170px;
+    border-top-left-radius: 10px;
+    border-top-right-radius:10px;
+}
+.best-offers-grid a{
+    text-decoration: none;
+}
+.best-offers-grid h1{
+    margin: 0;
+    margin-top: 15px;
+    padding: 5px;
+    padding-left: 30px;
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+}
+.best-offers-grid p{
+    margin: 0;
+    padding:0;
+    padding-left: 30px;
+    font-size: 15px;
+    text-decoration: none;
+    color: #aaaaaa;
+    padding-bottom: 7px;
+}
+
+.best-offers-button-all{
+    text-align: center;
+}
+.best-offers-button{
+    text-transform: uppercase;
+    color: white;
+    background-color: #572f59;
+    border: none;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+    font-weight: 900;
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+    height: 50px;
+    width: 170px;
+    margin-bottom: 50px;
+}
+.best-offers-button:hover{
+    color: #ffffff;
+    background-color: #cd5823;
+    transition: .5s all;
+}
+
+
+/*Why Travellino*/
+.why-travellino-bg{
+    background-image: url("http://ld-wp.template-help.com/rockthemes/18709/wp-content/uploads/2018/03/bg-121.jpg"); 
+    background-size: cover; 
+    background-position: 50% calc(90% + 42.8px);
+    height: 600px;
+    margin-top: 60px;
+}
+.why-travellino-main h1{
+    margin: 0;
+    padding: 0;
+    padding-top: 60px;
+    color: white;
+    font-size: 36px;
+    text-align: center;
+}
+.why-travellino-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 30px;
+    padding-top: 60px;
+}
+.why-travellino-grid div{
+    background-color: white;
+    text-align: center;
+    width: auto;
+    height: 175px;
+    border-radius: 5px;
+}
+.why-travellino-grid img{
+    width: 60px;
+    margin-top: 10px;
+    
+}
+.why-travellino-grid h1{
+    margin: 0;
+    padding: 0;
+    font-size:14px;
+    color: black;
+    text-transform: uppercase;
+    margin-top: 30px;
+    
+}
+.why-travellino-grid p{
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    color: #aaaaaa;
+    margin: 10px 5px 5px 5px;
+}
+
+
+/*Recent Post*/
+.recent-post-title h3{
+    margin: 60px 0;
+    padding: 0;
+    
+    text-align: center;
+    color: black;
+    font-size: 36px;
+}
+.recent-post-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-gap: 30px;
+}
+.recent-post-grid div{
+    background-color: white;
+    text-align: center;
+    width: auto;
+    height: 445px;
+    border-radius: 5px;
+    margin-bottom: 100px;
+}
+.recent-post-grid div:hover{
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.recent-post-grid img{
+    width: 330px;
+    margin: 15px;
+}
+.recent-post-grid p{
+    color: #aaaaaa;
+}
+span{
+    color: #572f59;
+}
+.recent-post-grid h6{
+    font-size: 14px;
+    color: #aaaaaa;
+    padding: 0;
+    margin: 0;
+    padding: 0 10px;
+}
+.recent-post-grid button{
+    text-transform: uppercase;
+    color: white;
+    background-color: #572f59;
+    border: none;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+    font-weight: 900;
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+    height: 45px;
+    width: 140px;
+    margin-top: 20px;
+}
+.recent-post-grid button:hover{
+    color: #ffffff;
+    background-color: #cd5823;
+    transition: .5s all;
+}
+
+
+/*find-travel*/
+.find-travel-bg{
+    background-image: url(../img/find-travel.jpg);
+    background-size: cover; 
+    background-position: 50% calc(90% + 42.8px);
+    height: 600px;
+}
+.find-travel-main{
+    text-align: center;
+}
+.find-travel-main h2{
+    margin: 0;
+    padding: 0;
+    font-size: 48px;
+    color: white;
+    text-align: right;
+    padding-top: 200px;
+    padding-bottom: 30px;
+    padding-right: 440px;
+    
+}
+.find-travel-main button{
+    text-transform: uppercase;
+    color: white;
+    background-color: #572f59;
+    border: none;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+    font-weight: 900;
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+    height: 45px;
+    width: 240px;
+    margin-top: 20px;
+}
+.find-travel-main button:hover{
+    color: #ffffff;
+    background-color: #cd5823;
+    transition: .5s all;
+}
+
+
+/*counter*/
+.text-center{
+    height: 350px;
+}
+.col-md-3{
+    padding-top: 80px;
+}
+.stat-items img{
+    width: ;
+}
+.stat-items span{
+    color: black;
+    font-size: 36px;
+    
+}
+.stat-items p{
+    color: #888888;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: italic;
+}
+
+
+/*fastest way*/
+.fastest-way-bg{
+    background-image: url(../img/fastest%20way.jpg);
+    background-size: cover; 
+    background-position: 50% calc(90% + 42.8px);
+    height: 400px;
+}
+.fastest-way-main{
+    text-align: right;
+}
+.fastest-way-main h2{
+    margin: 0;
+    padding: 0;
+    font-size: 48px;
+    color: white;
+    padding-top: 150px;
+    padding-bottom: 30px;
+    
+}
+.fastest-way-main button{
+    text-transform: uppercase;
+    color: white;
+    background-color: #572f59;
+    border: none;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+    font-weight: 900;
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+    height: 45px;
+    width: 240px;
+    margin-top: 20px;
+}
+.fastest-way-main button:hover{
+    color: #ffffff;
+    background-color: #cd5823;
+    transition: .5s all;
+}
+
+
+/*developers*/
+.developers-main{
+    text-align: center;
+}
+.developers-title h3{
+    margin: 0;
+    padding: 0;
+    font-size: 36px;
+    color: black;
+    margin-top: 80px;
+}
+.developers-title p{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    color: #aaaaaa;
+    margin-top: 5px;
+}
+
+
+.developers-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-gap: 30px;
+    margin: 40px 0;
+}
+.developers-grid img{
+    width: 100px;
+    border: 8px solid #e6e6e6;
+    border-radius: 100%;
+}
+.developers-grid h4{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    color: black;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+.developers-grid p{
+    margin: 0;
+    padding: 0;
+    font-size: 13px ;
+    color: #aaaaaa;
+    margin-top: 10px;
+}
+.developers-button button{
+    text-transform: uppercase;
+    color: white;
+    background-color: #572f59;
+    border: none;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+    font-weight: 900;
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+    height: 45px;
+    width: 200px;
+    margin-top: 10px;
+    margin-bottom: 90px;
+    
+}
+.developers-button button:hover{
+    color: #ffffff;
+    background-color: #cd5823;
+    transition: .5s all;
+}
+
+
+/*footer*/
+.footer-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-gap: 30px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.footer-logo img{
+    width: 200px;
+}
+.footer-logo p{
+    font-size: 13px ;
+    color: #aaaaaa;
+}
+
+
+.footer-contacts h5{
+    font-size: 18px ;
+    color: black;
+    font-weight: 400;
+}
+.footer-contacts p{
+    font-size: 14px ;
+    color: #aaaaaa;
+}
+
+
+.footer-social-networks h5{
+    font-size: 18px ;
+    color: black;
+    font-weight: 400;
+}
+.footer-social-networks div{
+    font-size: 24px ;
+    color: #aaaaaa;
+}
+.footer-social-networks div i{
+    padding-right: 15px;
+}
